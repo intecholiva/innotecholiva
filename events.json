@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Master Course in Virgin Olive Oil Production: Training to Enhance Efficiency, Quality, and Technical Expertise ",
+    "type": "Course",
+    "eventDate": "----- xx-xx, 2025",
+    "location": "Jaén, Spain",
+    "summary": "An intensive 3-day course designed for professionals to master the techniques of sensory evaluation of virgin olive oils. Limited spots available.",
+    "imageUrl": "https://nostalgaia.gr/wp-content/uploads/2022/11/nostalgaia-extra-virgin-olive-oil-blog2-1024x683.jpg",
+    "link": "link-to-registration-page.html",
+    "linkText": "Register Now"
+  },
+  {
+    "id": 2,
+    "title": "Advanced Course on Olive Oil Sensory Analysis",
+    "type": "Course",
+    "eventDate": "---- xx-xx, 2025",
+    "location": "Jaén, Spain",
+    "summary": "An intensive 3-day course designed for professionals to master the techniques of sensory evaluation of virgin olive oils. Limited spots available.",
+    "imageUrl": "https://blog.esao.es/hubfs/copas%20cata.png",
+    "link": "link-to-registration-page.html",
+    "linkText": "Register Now"
+  },
+  {
+    "id": 3,
+    "title": "Webinar: The Future of Olive Grove Technology",
+    "type": "Webinar",
+    "eventDate": "---- xx, 2025",
+    "location": "Online",
+    "summary": "Join our free webinar to explore the latest innovations in harvesting technology and process optimization that are shaping the future of the industry.",
+    "imageUrl": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=800&q=60",
+    "link": "link-to-webinar-info.html",
+    "linkText": "Learn More"
+  },
+  {
+    "id": 4,
+    "title": "Annual Conference on EVOO Production and Quality",
+    "type": "Conference",
+    "eventDate": "---- xx, 2025",
+    "location": "Alger, Algeria",
+    "summary": "A full-day conference with international speakers on topics of production, quality control, certification, and positioning olive oil in global markets.",
+    "imageUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=60",
+    "link": "#",
+    "linkText": "Details Coming Soon"
+  }
+]

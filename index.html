@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>INNOTECHOLIVA – Strategic Consulting in Virgin Olive Oil</title>
+
+  <!-- Font Preload -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style" onload="this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"></noscript>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <meta name="description" content="INNOTECHOLIVA provides strategic consulting in virgin olive oil production, innovation, and quality optimization.">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .fade-up {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 0.8s ease-out forwards;
+    }
+
+    @keyframes fadeUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-delay-200 { animation-delay: 0.2s; }
+    .fade-delay-400 { animation-delay: 0.4s; }
+
+    .mobile-menu { display: none; }
+
+    @media (max-width: 768px) {
+      .mobile-menu { display: block; }
+      .desktop-menu { display: none; }
+    }
+
+    a:focus, button:focus {
+      outline: 2px dashed #facc15;
+      outline-offset: 4px;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="fixed top-0 w-full z-50 bg-green-900 bg-opacity-95 text-white shadow">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">INNOTECH<span class="text-yellow-400">OLIVA</span></h1>
+      <button id="menu-toggle" class="text-yellow-400 md:hidden text-2xl" aria-label="Toggle navigation">☰</button>
+      <nav class="desktop-menu space-x-4 hidden md:block">
+        <a href="index.html" class="hover:text-yellow-300">Home</a>
+        <a href="about.html" class="hover:text-yellow-300">About</a>
+        <a href="vision.html" class="hover:text-yellow-300">Vision</a>
+        <a href="divisions.html" class="hover:text-yellow-300">Divisions</a>
+        <a href="why.html" class="hover:text-yellow-300">Why Us</a>
+        <a href="contact.html" class="hover:text-yellow-300">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="mobile-menu hidden px-6 pb-4 bg-green-900 text-white space-y-2">
+      <a href="index.html" class="block hover:text-yellow-300">Home</a>
+      <a href="about.html" class="block hover:text-yellow-300">About</a>
+      <a href="vision.html" class="block hover:text-yellow-300">Vision</a>
+      <a href="divisions.html" class="block hover:text-yellow-300">Divisions</a>
+      <a href="why.html" class="block hover:text-yellow-300">Why Us</a>
+      <a href="contact.html" class="block hover:text-yellow-300">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="h-screen bg-center bg-cover relative pt-20" style="background-image: url('https://images.unsplash.com/photo-1526481280690-7f8a114f0051?auto=format&fit=crop&w=1950&q=80');">
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-6 text-white">
+      <h2 class="text-5xl md:text-6xl font-bold mb-4 fade-up">INNOTECHOLIVA</h2>
+      <p class="text-xl md:text-3xl mb-6 fade-up fade-delay-200">Strategic Consulting in Virgin Olive Oil Production - Quality - Innovation & Process Optimization</p>
+      <a href="about.html" class="bg-yellow-400 hover:bg-yellow-500 text-green-900 font-semibold px-6 py-3 rounded shadow-lg fade-up fade-delay-400 transition">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section class="py-16 px-6 text-center bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold text-green-800 mb-4">Expertise Across the Olive Oil Value Chain</h3>
+      <p class="text-gray-700 text-lg leading-relaxed">
+        INNOTECHOLIVA offers expert consulting services in olive oil production, technology, quality, branding, and international market positioning. Our mission is to guide producers and organizations with scientific precision and practical innovation.
+      </p>
+    </div>
+  </section>
+
+  <!-- what we offer -->
+<section class="py-6 bg-white px-6">
+<div class="max-w-6xl mx-auto">
+  <div class="text-center mb-12">
+    <h3 class="text-3xl font-bold text-green-800">What We Offer</h3>
+    <p class="text-gray-700 mt-2 text-lg">Specialized solutions to elevate your virgin olive oil.</p>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+    
+    <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
+      <div class="flex justify-center mb-4">
+        <div class="bg-yellow-400 p-3 rounded-full">
+          <svg class="w-8 h-8 text-green-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.24-.438.613-.438.995s.145.755.438.995l1.003.827c.48.398.668 1.03.26 1.431l-1.296 2.247a1.125 1.125 0 0 1-1.37.49l-1.217-.456c-.355-.133-.75-.072-1.075.124a6.57 6.57 0 0 1-.22.127c-.332.183-.582.495-.645.87l-.213 1.281c-.09.543-.56.94-1.11.94h-2.593c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.063-.374-.313-.686-.645-.87a6.52 6.52 0 0 1-.22-.127c-.324-.196-.72-.257-1.075-.124l-1.217.456a1.125 1.125 0 0 1-1.37-.49l-1.296-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.437-.995s-.145-.755-.437-.995l-1.004-.827a1.125 1.125 0 0 1-.26-1.431l1.296-2.247a1.125 1.125 0 0 1 1.37-.49l1.217.456c.355.133.75.072 1.075-.124.073-.044.146-.087.22-.127.332-.183.582-.495.645-.87l.213-1.281Z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+          </svg>
+        </div>
+      </div>
+      <h4 class="text-xl font-semibold text-green-900 mb-2">Process & Technology</h4>
+      <p class="text-gray-700 text-sm">We help you implement cutting-edge technology and optimize extraction methods to maximize yield and efficiency.</p>
+    </div>
+
+    <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
+      <div class="flex justify-center mb-4">
+        <div class="bg-yellow-400 p-3 rounded-full">
+          <svg class="w-8 h-8 text-green-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.623 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.286Zm0 13.036h.008v.016h-.008v-.016Z" />
+          </svg>
+        </div>
+      </div>
+      <h4 class="text-xl font-semibold text-green-900 mb-2">Quality Assurance</h4>
+      <p class="text-gray-700 text-sm">From the field to the bottle, we establish protocols to ensure your oil meets the highest standards of quality and sensory profiles.</p>
+    </div>
+
+    <div class="bg-gray-50 p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
+      <div class="flex justify-center mb-4">
+        <div class="bg-yellow-400 p-3 rounded-full">
+          <svg class="w-8 h-8 text-green-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A11.953 11.953 0 0 0 12 13.5c-2.998 0-5.74-1.1-7.843-2.918m0 0A8.959 8.959 0 0 0 3 12c0-.778.099-1.533.284-2.253" />
+          </svg>
+        </div>
+      </div>
+      <h4 class="text-xl font-semibold text-green-900 mb-2">Market Strategy</h4>
+      <p class="text-gray-700 text-sm">We guide you in building a powerful brand and positioning your product effectively in competitive national and international markets.</p>
+    </div>
+
+  </div>
+</div>
+</section>
+<!-- Unpcoming events -->
+<section id="events-section" class="py-16 bg-gray-50 px-6">
+<div class="max-w-7xl mx-auto">
+  <div class="text-center mb-12">
+    <h3 class="text-3xl font-bold text-green-800">Upcoming Events & Formations</h3>
+    <p class="text-gray-700 mt-2 text-lg">Join our upcoming courses, webinars, and conferences.</p>
+  </div>
+  
+  <div id="events-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    </div>
+</div>
+</section>
+
+<!-- Actualities Section -->
+<section class="py-16 px-6 bg-white">
+  <div class="max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold text-green-800 text-center mb-10">Cientific Reports...</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Article 1 -->
+      <article class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-md transition">
+        <img src="https://www.frontiersin.org/files/Articles/1395701/fpls-15-1395701-HTML/image_m/fpls-15-1395701-g003.jpg" alt="Technological Changes in Virgin Olive Oil Extraction" class="rounded mb-4 w-full h-53 object-cover">
+        <h4 class="text-l text-justify font-semibold mb-2 text-green-900">Optimizing Olive Oil Extraction Efficiency Using Horizontal Separators</h4>
+        <p class="text-justify text-gray-700 text-sm mb-4">
+          This scientific study examines how different designs of horizontal separators affect the extraction efficiency of virgin olive oil, specifically from the Arbequina variety. Researchers compared decanter technologies to evaluate their impact on oil yield, moisture content, and chemical composition. Results highlight that certain separator configurations significantly improve extraction outcomes, offering producers a practical route to enhance both quality and sustainability. The study supports equipment optimization as a key factor in process innovation.
+        </p>
+        <a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1395701/full" class="text-green-700 font-semibold hover:underline text-sm" target="_blank" rel="noopener noreferrer">Read More →</a>
+      </article>
+
+      <!-- Article 2 -->
+      <article class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-md transition">
+        <img src="https://img.interempresas.net/fotos/3171815.jpeg" alt="Olive Oil Processing Separation and Clarification" class="rounded mb-6 w-full h-32 object-cover">
+        <h4 class="text-l text-justify font-semibold mb-2 text-green-900">Processing Factors Affecting Alcohols and Alkyl Esters Balance in Arbequina Olive Oil</h4>
+        <p class="text-gray-700 text-justify text-sm mb-4">
+          This study investigates how different processing parameters during the separation and clarification stages impact the balance of alcohols and alkyl esters in virgin olive oil extracted from the Arbequina variety. It highlights that specific conditions in these steps can influence the chemical profile of the oil, affecting both its quality and sensory attributes. The findings offer producers important guidelines to optimize processing for better flavor and stability.
+        </p>
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0023643821009956" class="text-green-700 font-semibold hover:underline text-sm" target="_blank" rel="noopener noreferrer">Read More →</a>
+      </article>
+
+<!-- Article 3 -->
+<article class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-md transition">
+  <img src="https://img.interempresas.net/fotos/4792883.jpeg" alt="Technological Changes in Virgin Olive Oil Extraction" class="rounded mb-6 w-full h-32 object-cover">
+  <h4 class="text-l text-justify font-semibold mb-2 text-green-900">Key Production Factors in High-Quality Olive Oils</h4>
+  <p class="text-gray-700 text-justify text-sm mb-4">
+    This article explores the technical and operational factors that influence the quality of extra virgin olive oil. Key practices include proper olive reception and storage, appropriate crushing techniques to preserve volatile and phenolic compounds, and thorough cleaning at every stage of the process. The role of the mill master is emphasized as essential — their technical knowledge and management skills are critical for producing high-quality oils.
+  </p>
+  <a href="https://www.interempresas.net/Produccion-Aceite/Articulos/223758-Factores-de-fabricacion-en-aceites-de-alta-calidad.html" class="text-green-700 font-semibold hover:underline text-sm" target="_blank" rel="noopener noreferrer">Read More →</a>
+</article>
+    </div>
+  </div>
+</section>
+
+<section class="py-16 bg-white px-6">
+<div class="max-w-4xl mx-auto text-center">
+  <h3 class="text-2xl font-bold text-green-800 mb-12">Our Impact in Numbers</h3>
+  <div class="grid grid-cols-0 md:grid-cols-3 gap-2">
+    
+    <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <p class="text-4xl font-bold text-yellow-500 mb-2">15+</p>
+      <h4 class="text-xlg font-semibold text-green-900">Years of Experience</h4>
+      <p class="text-gray-600 mt-2 text-sm">International experience in  virgin olive oil sector.</p>
+    </div>
+    
+    <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <p class="text-4xl font-bold text-yellow-500 mb-3">50+</p>
+      <h4 class="text-xlg font-semibold text-green-900">Projects Completed</h4>
+      <p class="text-gray-600 mt-2 text-sm">Optimizing processes and quality on a global scale.</p>
+    </div>
+
+    <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <p class="text-4xl font-bold text-yellow-500 mb-3">98%</p>
+      <h4 class="text-xlg font-semibold text-green-900">Client Satisfaction</h4>
+      <p class="text-gray-600 mt-2 text-sm">Committed to excellence and measurable results.</p>
+    </div>
+
+  </div>
+</div>
+</section>
+
+  <!-- Call to Action -->
+  <section class="py-16 bg-green-100 text-center">
+    <h4 class="text-2xl md:text-3xl font-semibold mb-4 text-green-800">Ready to transform your olive oil business?</h4>
+    <p class="text-gray-700 mb-6">Partner with us to unlock innovation, sustainability, and global reach.</p>
+    <a href="contact.html" class="bg-green-700 hover:bg-green-800 text-white font-semibold px-6 py-3 rounded shadow transition">Contact Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-900 text-gray-300 text-center py-6">
+    <p>&copy; <span id="year"></span> INNOTECHOLIVA. All rights reserved.</p>
+    <p class="text-sm">Strategic Consulting for a Greener Future in Olive Oil</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Set the current year
+    document.getElementById('year').text
+    // Toggle mobile menu
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  <script>
+    // Set the current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Toggle mobile menu
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+
+    // ======================================================
+    // ============ SCRIPT PARA CARGAR EVENTOS =============
+    // ======================================================
+    document.addEventListener('DOMContentLoaded', function() {
+      const eventsContainer = document.getElementById('events-container');
+      
+      const calendarIcon = `<svg class="w-5 h-5 mr-2 text-green-800 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0h18" /></svg>`;
+      const locationIcon = `<svg class="w-5 h-5 mr-2 text-green-800 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg>`;
+
+      fetch('events.json')
+        .then(response => {
+          if (!response.ok) { throw new Error('Network response was not ok'); }
+          return response.json();
+        })
+        .then(events => {
+          if (events.length === 0) {
+              eventsContainer.innerHTML = '<p class="text-center col-span-full text-gray-600">No upcoming events at the moment. Please check back soon.</p>';
+              return;
+          }
+          eventsContainer.innerHTML = '';
+          events.forEach(event => {
+            const eventCard = `
+              <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col hover:shadow-xl transition-shadow duration-300">
+                <img src="${event.imageUrl}" class="w-full h-52 object-cover" alt="${event.title}">
+                <div class="p-6 flex flex-col flex-grow">
+                  <p class="text-sm font-semibold text-yellow-600 uppercase tracking-wider">${event.type}</p>
+                  <h4 class="text-xl font-bold text-green-900 mt-1 mb-4">${event.title}</h4>
+                  
+                  <div class="space-y-2 text-gray-700 text-sm mb-4">
+                    <p class="flex items-center">${calendarIcon} <span>${event.eventDate}</span></p>
+                    <p class="flex items-center">${locationIcon} <span>${event.location}</span></p>
+                  </div>
+
+                  <p class="text-gray-700 text-sm flex-grow">${event.summary}</p>
+                  
+                  <div class="mt-6">
+                    <a href="${event.link}" class="inline-block bg-yellow-400 text-green-900 font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition-colors duration-300">
+                      ${event.linkText}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            `;
+            eventsContainer.innerHTML += eventCard;
+          });
+        })
+        .catch(error => {
+          console.error('Error fetching events:', error);
+          eventsContainer.innerHTML = '<p class="text-center col-span-full text-red-600">Could not load events. Please try again later.</p>';
+        });
+    });
+  </script>
+</body>
+</html>
+

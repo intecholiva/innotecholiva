@@ -1,0 +1,11 @@
+project/
+│
+├── index.html          # Página de inicio
+├── about.html          # Sección 'About'
+├── vision.html         # Sección 'Vision'
+├── divisions.html      # Sección 'Divisions'
+├── contact.html        # Contacto
+├── css/
+│   └── styles.css      # Estilos comunes (Tailwind + personalizados)
+└── js/
+    └── main.js         # Navbar, animaciones, etc.

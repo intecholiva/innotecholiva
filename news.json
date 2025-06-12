@@ -1,0 +1,26 @@
+[
+  {
+    "id": 3,
+    "imageUrl": " ",
+    "date": "June 10, 2025",
+    "title": "INNOTECHOLIVA Launches New Advisory Service for Sustainable Farming",
+    "summary": "We are thrilled to announce our new consulting division focused on helping olive groves transition to fully sustainable and organic farming practices, improving soil health and biodiversity.",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "imageUrl": " ",
+    "date": "May 22, 2025",
+    "title": "Our CEO to Speak at the International Olive Oil Symposium",
+    "summary": "Our lead consultant will be a keynote speaker at the upcoming global symposium, discussing the impact of new technologies on virgin olive oil quality.",
+    "link": "#"
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://agriculture.ec.europa.eu/sites/default/files/styles/oe_theme_ratio_3_2_medium/avportal/P-041241/00-48.jpg?itok=itQ50bOT",
+    "date": "April 15, 2025",
+    "title": "A Record-Breaking Year for Quality",
+    "summary": "Clients who implemented our quality assurance protocols have reported a 25% increase in premium-grade olive oil production this harvest season. We celebrate their success.",
+    "link": "#"
+  }
+]
